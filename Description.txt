@@ -1,0 +1,6 @@
+预测二手车的价格
+ToyotaCorolla文件包含某年夏季在荷兰出售的二手车数据。它有1436条记录，其中包含38个属性的详细信息，包括价格，使用年程，里程，HP以及其他信息。目标是根据其信息预测二手Toyota Corolla的价格。使用价格Price作为多元线性回归的输出变量，输入变量为：Age_08_04(从2004.8起计算的车龄)，KM，Fuel Type，HP， Automatic，Doors，Quarterly Tax（以欧元计的季度养路税），Mfg Guarantee，Guarantee Period，Airco，Automatic Airco，CD Player，Powered Windows，Sport Model，Tow Bar等等。
+要求：按照下面的具体要求撰写一份notebook格式的报告
+    + a.使用表格或图形探索价格和这些因素之间的关系。
+    + b.构建预测模型，在模型中存在哪些影响显著的预测变量？
+    + c.使用你认为有用的指标或方法，评估降维后的模型在预测价格方面的表现。
